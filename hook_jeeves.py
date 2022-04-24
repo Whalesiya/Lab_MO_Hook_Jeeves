@@ -121,10 +121,9 @@ else:
 min_point, iteration = hook_jeeves(func=func_r,
                                    point_0=point)
 
-if iteration is not None:
-    print('\n\tАлгоритм выполняется ...\n')
-    print('_'*60)
-    print('Алгоритм выполнился', iteration, 'раз')
-    print('Минимум функции в точке (x, y) = ', min_point)
-    print('Значение функции F(x, y) = ', round(func_r(min_point), 6))
-    print('_'*60)
+print('\n\tАлгоритм выполняется ...\n')
+print('_'*60)
+print('Алгоритм выполнился', iteration, 'раз')
+print('Минимум функции в точке (x, y) = ', min_point)
+print('Значение функции F(x, y) = ', round(func_r(min_point), 6))
+print('_'*60)
